@@ -1,0 +1,87 @@
+body{    
+    background: linear-gradient(0.25turn, #000000, #666666, #000000);
+}
+
+h1{
+    color:white;
+    font-size: 70px;
+    text-align: center;
+}
+
+.main{
+    color:white;
+}
+.main h2{
+    font-size: 50px;
+    text-align: center;
+}
+.main p{
+    font-size: 35px;
+    text-align: center;
+}
+
+.item img{
+    margin-left: 45%
+}
+
+/* .carousel slide{
+    height: 40%;
+} */
+
+.intrest{
+    color: white;
+}
+.intrest img{
+    display: flex;
+    height: 10%;
+    width: 10%;
+}
+.intrest h2{
+    font-size: 50px;
+    text-align: left;
+}
+.intrest h3{
+    font-size: 40px
+}
+.intrest h4{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.intrest p{
+    font-size: 30px;
+}
+
+.wrap{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: auto;
+    margin-left: auto;
+}
+.wrap img{
+    text-align: center;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.contact h2{
+    font-size: 40px;
+}
+.contact h3{
+    font-size: 30px;
+}
+.contact img{
+    height: 4%;
+    width: 4%;
+}
+.photo{
+    display: flex;
+    flex-direction: row;
+}
+.photo p{
+    font-size: 20px;
+}
