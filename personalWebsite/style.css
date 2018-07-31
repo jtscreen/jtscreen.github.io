@@ -13,11 +13,16 @@ h1{
 }
 .main h2{
     font-size: 50px;
-    text-align: center;
+    text-align: left;
 }
 .main p{
     font-size: 35px;
-    text-align: center;
+    text-align: left;
+}
+
+mark{
+    color: gray;
+    background: #00000000
 }
 
 .intrest{
@@ -57,14 +62,16 @@ h1{
 
 .intrest h2{
     font-size: 50px;
-    text-align: left;
+    text-align: center;
 }
 .intrest h3{
-    font-size: 40px
+    font-size: 40px;
+    text-align: center;
 }
 .intrest h4{
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: flex-start; */
+    text-align: justify;
     font-size: 30px;
 }
 .intrest p{
